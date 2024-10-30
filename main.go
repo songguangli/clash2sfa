@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	port := ":9261"
+	port := ":9222"
 	if p := os.Getenv("port"); p != "" {
 		port = p
 	}
