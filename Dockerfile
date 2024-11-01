@@ -20,6 +20,6 @@ WORKDIR /server
 COPY --from=builder /build/main .
 
 
-EXPOSE 8080
+EXPOSE 9931
 
 CMD ["/server/main"]
